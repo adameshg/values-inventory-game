@@ -8,8 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors-anywhere": "^0.4.4",
-    "interactjs": "^1.10.11"
-  }
+  "dependencies": {}
 }
