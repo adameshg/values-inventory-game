@@ -16,3 +16,8 @@
   transition: background-color 0.3s;
   height: 140px;
 }
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -53,7 +53,7 @@ var dragged;
   document.addEventListener("dragenter", function(e) {
       // highlight potential drop target when the draggable element enters it
       if (e.target.className == "dropzone") {
-          // e.target.style.background = "purple";
+          e.target.style.background = "#a2d5fa";
       }
 
   }, false);
