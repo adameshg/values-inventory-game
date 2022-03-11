@@ -1,32 +1,3 @@
-// function dragstart_handler(e) {
-//   // Add the target element's id to the data transfer object
-//   e.dataTransfer.setData("text/html", e.target.outerHTML);
-// }
-
-// function dragover_handler(e) {
-//   e.preventDefault();
-//   e.dataTransfer.dropEffect = "move";
-//  }
-
-// function drop_handler(e) {
-//   e.preventDefault();
-//   // Get the id of the target and add the moved element to the target's DOM
-//   const data = e.dataTransfer.getData("text/plain");
-//   e.target.appendChild(document.getElementById(data));
-
-//    // Add the target element's id to the data transfer object
-//   e.dataTransfer.setData("application/my-app", e.target.id);
-//   e.dataTransfer.effectAllowed = "move";
-//  }
-
-// window.addEventListener('DOMContentLoaded', () => {
-//   // Get the element by id
-//   const element = document.getElementById("yes-drop");
-//   // Add the ondragstart event listener
-//   element.addEventListener("dragstart", dragstart_handler);
-//   console.log(element.outerHTML);
-// });
-
 var dragged;
 
   /* events fired on the draggable target */
@@ -75,3 +46,4 @@ var dragged;
           e.target.appendChild(dragged);
       }
   }, false);
+  

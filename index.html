@@ -19,17 +19,31 @@
 
 <div id="grid">
     <div class="dropzone">
-        <h2>Very important to me</h2>
+        <h2 class="column-header">Very important to me</h2>
     </div>
     <div class="dropzone">
-        <h2>Important to me</h2>
+        <h2 class="column-header">Important to me</h2>
     </div>
     <div class="dropzone">
-        <h2>Not important to me</h2>
+        <h2 class="column-header">Not important to me</h2>
     </div>
 </div>
 <div class="dropzone" id="word-bank">
         <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+            <p>
+                <span class="value">Acceptance</span>
+                <br>
+                <span class="description">To be accepted as I am</span>
+            </p>
+        </div>
+        <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+            <p>
+                <span class="value">Accuracy</span>
+                <br>
+                <span class="description">To be accurate in my opinions and beliefs</span>
+            </p>
+        </div>
+        <!-- <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
             This div is draggable
         </div>
         <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
@@ -40,10 +54,7 @@
         </div>
         <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
             This div is draggable
-        </div>
-        <div class="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
-            This div is draggable
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
