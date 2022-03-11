@@ -46,6 +46,10 @@ br {
   padding: 10px;
   width: 80%;
   transition: background-color 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-evenly;
 }
 
 .column-header {
