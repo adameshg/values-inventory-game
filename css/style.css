@@ -1,5 +1,23 @@
 body {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-print-color-adjust: exact; 
+}
+
+#banner {
+  text-align: center;
+}
+
+#project-title {
+  padding: 30px 0 2px 0;
+  margin: auto;
+  border-bottom: 5px solid #bfe4ff;
+  width: 40%;
+}
+
+#instructions {
+  width: 75%;
+  margin: auto;
+  padding: 30px 0;
 }
 
 span {
@@ -38,6 +56,11 @@ br {
   font-size: 18px;
 }
 
+/* TODO: figure out how the fuck to target middle column h2 */
+/* .description:nth-of-type(2) {
+  
+} */
+
 .dropzone {
   background-color: #bfe4ff;
   border: dashed 4px transparent;
@@ -48,7 +71,7 @@ br {
   transition: background-color 0.3s;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: flex-start;
   justify-content: space-evenly;
 }
 
@@ -61,6 +84,8 @@ br {
 
 #word-bank {
   padding: 20px;
+  max-height: 100vh;
+  overflow-y: scroll;
 }
 
 #grid {
